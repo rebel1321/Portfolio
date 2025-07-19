@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile.png';
 
 const About = () => {
+  useEffect(() => {
+    // Preload the image
+    const img = new Image();
+    img.src = profileImage;
+  }, []);
+
   return (
     <section
-  id="about"
-  className="scroll-mt-18 py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-18 md:mt-24 lg:mt-32"
->
+      id="about"
+      className="scroll-mt-18 py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-18 md:mt-24 lg:mt-32"
+    >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
