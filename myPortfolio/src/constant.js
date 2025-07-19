@@ -17,11 +17,12 @@ import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-import renderLogo from './assets/tech_logo/renderLogo.png';
+import renderLogo from './assets/tech_logo/render.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 // Experience Section Logo's
 import luminariesLogo from './assets/company_logo/luminaries.png';
+import gssocLogo from './assets/company_logo/gssoc.png';
 
 // Education Section Logo's
 import hnbguLogo from './assets/education_logo/hnbgu.png';
@@ -96,8 +97,26 @@ export const SkillsInfo = [
     "Git",
     "GitHub",
     "Postman",
+    "Team Collaboration",
   ],
 },
+  {
+  id: 2,
+  img: gssocLogo, // replace with actual GirlScript Summer of Code logo
+  role: "Open Source Contributor",
+  company: "GirlScript Summer of Code",
+  date: "Oct 2024 – Nov 2024",
+  desc: "Participated in GirlScript Summer of Code 2024 as a beginner contributor. While I wasn’t able to raise or resolve any issues, I spent time exploring open-source codebases, understanding project structures, and learning how to use tools like GitHub and Postman effectively. This experience helped me build confidence in reading unfamiliar code and understanding how real-world projects are structured and maintained.",
+  skills: [
+    "GitHub",
+    "Open Source Exposure",
+    "Postman",
+    "Codebase Navigation",
+    "Issue Exploration",
+    
+    "Git Basics",
+  ],
+}
 
   ];
   
