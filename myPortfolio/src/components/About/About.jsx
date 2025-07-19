@@ -26,9 +26,8 @@ const About = () => {
             <TypeAnimation
               sequence={[
                 'Fullstack Developer', 2000,
-                'React.js Developer', 2000,
                 'Spring Boot Developer', 2000,
-                'MERN Stack Enthusiast', 2000,
+                'MERN Stack Developer', 2000,
                 'Problem Solver', 2000,
               ]}
               wrapper="span"
