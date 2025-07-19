@@ -29,7 +29,7 @@ const Education = () => {
               index % 2 === 0 ? "sm:justify-start" : "sm:justify-end"
             }`}
           >
-          
+
 
             {/* Content Section */}
             <div
