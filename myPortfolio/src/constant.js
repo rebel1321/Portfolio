@@ -23,6 +23,7 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 // Experience Section Logo's
 import luminariesLogo from "./assets/company_logo/luminaries.png";
 import gssocLogo from "./assets/company_logo/gssoc.png";
+import gnciplLogo from "./assets/company_logo/gncipl.jpg";
 
 // Education Section Logo's
 import hnbguLogo from "./assets/education_logo/hnbgu.png";
@@ -80,8 +81,30 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
+    img: gnciplLogo, // Add GNCIPL logo if available
+    role: "MERN Stack Intern",
+    company: "GNCIPL",
+    date: "Aug 2025 – Oct 2025",
+    desc: "Completed a structured 6-week MERN Stack internship involving weekly full-stack development tasks. Led a 6-member team to build and deploy 'Global Connect', a real-time web platform integrating frontend and backend functionalities. Implemented modern technologies like Tailwind CSS, Socket.io, Node-Cron, and Cloudinary, gaining hands-on experience in full-stack development and project deployment.",
+    skills: [
+      "React JS",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "Tailwind CSS",
+      "Socket.IO",
+      "Node-Cron",
+      "Cloudinary",
+      "JavaScript",
+      "Team Leadership",
+      "Full-Stack Development",
+      "Deployment",
+    ],
+  },
+  {
+    id: 1,
     img: luminariesLogo, // (replace with actual logo or placeholder)
-    role: "Backend Developer",
+    role: "Freelance Backend Developer",
     company: "Luminaries",
     date: "March 2025 – May 2025",
     desc: "Built and integrated a backend system for managing student and teacher data, along with a daily fee tracking module. Developed secure admin login, automated fee receipt emails, and managed pending fee logic. Collaborated with a 3-member team, focusing on backend development and seamless API integration with the React frontend.",
