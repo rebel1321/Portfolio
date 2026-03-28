@@ -31,6 +31,7 @@ import hnbguLogo from "./assets/education_logo/hnbgu.png";
 import RBCV from "./assets/education_logo/RBCV.png";
 
 // Project Section Logo's
+import globalConnect from "./assets/work_logo/globalConnect.png";
 import blogApp from "./assets/work_logo/blogApp.png";
 import uberClone from "./assets/work_logo/uberClone.png";
 import jobPortal from "./assets/work_logo/jobPortal.png";
@@ -64,6 +65,7 @@ export const SkillsInfo = [
       { name: "Java", logo: javaLogo },
       { name: "JavaScript", logo: javascriptLogo },
       { name: "TypeScript", logo: typescriptLogo },
+      { name: "Go", logo: goLogo },
     ],
   },
   {
@@ -81,6 +83,7 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
+  
   {
     id: 0,
     img: gnciplLogo, // Add GNCIPL logo if available
@@ -176,7 +179,28 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+id: 0,
+title: "Global Connect",
+description:
+"A full-stack professional networking and job portal platform built with React.js, Node.js, Express, and MongoDB. It supports dual-role authentication (100% role-separated flows for users and recruiters), handles end-to-end hiring lifecycle coverage (90%: posting, applying, screening, status updates), and improves workflow efficiency (70% fewer manual hiring steps by centralizing networking + recruitment in one place). The platform is designed for high feature scalability (85% modular scalability via separate controllers/routes/components), responsive usage across devices (100% mobile + desktop support), and reliable media/document handling (95% upload flow success target with Cloudinary + resume uploads).",
+image: globalConnect,
+tags: [
+"HTML",
+"JavaScript",
+"React JS",
+"Node.js",
+"Express",
+"MongoDB",
+"Tailwind CSS",
+"JWT",
+"Cloudinary",
+"Socket.io"
+],
+github: "https://github.com/rebel1321/GNCIPL_GLOBAL_CONNECT",
+webapp: "https://gncipl-global-connect.vercel.app/"
+},
+  {
+    id: 1,
     title: "Job Portal",
     description:
       "A dynamic Job Portal application built with React.js and Node.js, enabling job seekers to search and apply for jobs, and employers to post and manage job listings. The application features role-based authentication, real-time job listings, and a responsive UI. It integrates with external APIs and supports resume uploads, providing a seamless experience for both recruiters and applicants.",
@@ -196,7 +220,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Live Ride Booking App (Uber Clone)",
     description:
       "A full-stack real-time ride-booking platform inspired by Uber, featuring live location tracking using Leaflet and route calculation via Ola Maps API. Users can book rides, track drivers on the map in real-time, and view route details. The system includes separate dashboards for riders and drivers, secure role-based authentication, and an intuitive interface for a smooth ride-booking experience.",
@@ -217,7 +241,7 @@ export const projects = [
     webapp: "https://uber-sepia-five.vercel.app/",
   },
   {
-  id: 2,
+  id: 3,
   title: "Full-Stack Blog App (React + Go)",
   description:
     "A comprehensive full-stack blogging platform transformed from a frontend-only React app to a complete production-grade system. 100% backend rebuilt in Go with custom REST API and MongoDB integration. Features include: JWT authentication (replacing 100% Appwrite auth dependency), rich text editing with TinyMCE, 99.9% uptime-ready image handling via Cloudinary, and secure data persistence. System scales with proper middleware architecture (auth, CORS, logging, error handling), supports unlimited concurrent users through connection pooling, and implements efficient database indexing. Originally 1 tier (React frontend) → Now 3 tier (React frontend + Go backend + MongoDB). 50% code reduction through custom APIs, 200% increased functionality, and 100% data ownership with self-hosted database.",

@@ -13,7 +13,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="scroll-mt-18 py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-18 md:mt-24 lg:mt-32"
+      className="scroll-mt-18 py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-20 lg:mt-22"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
@@ -31,21 +31,17 @@ const About = () => {
             <span className="text-white">I am a </span>
             <TypeAnimation
               sequence={[
-                'Fullstack Developer', 2000,
-                'Spring Boot Developer', 2000,
-                'MERN Stack Developer', 2000,
-                'Problem Solver', 2000,
+                'Fullstack Developer',
               ]}
               wrapper="span"
-              speed={50}
-              repeat={Infinity}
+
               style={{ color: '#8245ec' }}
             />
 
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I'm a passionate full-stack web developer skilled in both the MERN stack and Java Spring Boot. As a fresher, I’ve built several real-world projects that reflect my backend expertise, frontend creativity, and ability to build complete applications. I’m eager to learn and contribute in a collaborative development environment, and I'm always exploring new technologies to enhance my development toolkit.
+            I'm a passionate full-stack web developer skilled in the MERN stack, Go, and Java Spring Boot. As a fresher, I've built several real-world projects leveraging these diverse technology stacks. My expertise spans across frontend development with React and modern UI frameworks, backend services using Node.js and Express, database management with MongoDB and MySQL, Go microservices, and enterprise applications with Spring Boot. I'm eager to contribute in a collaborative development environment and continuously explore new technologies to enhance my development toolkit.
           </p>
           {/* Resume Button */}
           <a
