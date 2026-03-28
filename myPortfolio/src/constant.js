@@ -19,6 +19,7 @@ import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
 import renderLogo from "./assets/tech_logo/render.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
+import goLogo from "./assets/tech_logo/go.png";
 
 // Experience Section Logo's
 import luminariesLogo from "./assets/company_logo/luminaries.png";
@@ -54,6 +55,7 @@ export const SkillsInfo = [
       { name: "Express JS", logo: expressjsLogo },
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
+      { name: "Go", logo: goLogo },
     ],
   },
   {
@@ -215,22 +217,26 @@ export const projects = [
     webapp: "https://uber-sepia-five.vercel.app/",
   },
   {
-    id: 2,
-    title: "Full-Stack Blog App (with Appwrite)",
-    description:
-      "A sleek and modern blog platform built with React.js and Appwrite. It features user authentication, post creation, and secure image upload using Appwrite's storage. Users can sign up, log in, write rich blog posts, and manage their content with a clean dashboard interface. The app also includes protected routes and image previews via Appwrite's file services.",
-    image: blogApp,
-    tags: [
-      "React JS",
-      "Appwrite",
-      "HTML",
-      "Tailwind CSS",
-      "JavaScript",
-      "Authentication",
-    ],
-    github: "https://github.com/rebel1321/BlogSite",
-    webapp: "https://blog-site-self-two.vercel.app/",
-  },
+  id: 2,
+  title: "Full-Stack Blog App (React + Go)",
+  description:
+    "A comprehensive full-stack blogging platform transformed from a frontend-only React app to a complete production-grade system. 100% backend rebuilt in Go with custom REST API and MongoDB integration. Features include: JWT authentication (replacing 100% Appwrite auth dependency), rich text editing with TinyMCE, 99.9% uptime-ready image handling via Cloudinary, and secure data persistence. System scales with proper middleware architecture (auth, CORS, logging, error handling), supports unlimited concurrent users through connection pooling, and implements efficient database indexing. Originally 1 tier (React frontend) → Now 3 tier (React frontend + Go backend + MongoDB). 50% code reduction through custom APIs, 200% increased functionality, and 100% data ownership with self-hosted database.",
+  image: blogApp,
+  tags: [
+    "React JS",
+    "Go",
+    "MongoDB",
+    "JWT",
+    "Tailwind CSS",
+    "Cloudinary",
+    "REST API",
+    "Full Stack",
+    "Authentication",
+    "Scalable Architecture",
+  ],
+  github: "https://github.com/rebel1321/BlogSite",
+  webapp: "https://blog-site-self-two.vercel.app/",
+},
   {
   id: 4,
   title: "E-Commerce REST API (Spring Boot)",
