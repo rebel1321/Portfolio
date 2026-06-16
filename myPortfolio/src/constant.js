@@ -20,6 +20,11 @@ import postmanLogo from "./assets/tech_logo/postman.png";
 import renderLogo from "./assets/tech_logo/render.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import goLogo from "./assets/tech_logo/go.png";
+import postgresqlLogo from "./assets/tech_logo/pgsql.png";
+import dockerLogo from "./assets/tech_logo/docker.png";
+import cicdLogo from "./assets/tech_logo/cicd.png";
+import githubActionsLogo from "./assets/tech_logo/github-actions.png";
+
 
 // Experience Section Logo's
 import luminariesLogo from "./assets/company_logo/luminaries.png";
@@ -44,30 +49,43 @@ export const SkillsInfo = [
       { name: "HTML", logo: htmlLogo },
       { name: "CSS", logo: cssLogo },
       { name: "JavaScript", logo: javascriptLogo },
+      { name: "TypeScript", logo: typescriptLogo },
       { name: "React JS", logo: reactjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
     ],
   },
+
   {
     title: "Backend",
     skills: [
-      { name: "Springboot", logo: springbootLogo },
+      { name: "Java", logo: javaLogo },
+      { name: "Spring Boot", logo: springbootLogo },
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
-      { name: "MySQL", logo: mysqlLogo },
-      { name: "MongoDB", logo: mongodbLogo },
       { name: "Go", logo: goLogo },
     ],
   },
+
   {
-    title: "Languages",
+    title: "Databases",
     skills: [
-      { name: "Java", logo: javaLogo },
-      { name: "JavaScript", logo: javascriptLogo },
-      { name: "TypeScript", logo: typescriptLogo },
-      { name: "Go", logo: goLogo },
+      { name: "MySQL", logo: mysqlLogo },
+      { name: "PostgreSQL", logo: postgresqlLogo },
+      { name: "MongoDB", logo: mongodbLogo },
     ],
   },
+
+  {
+    title: "DevOps & Deployment",
+    skills: [
+      { name: "Docker", logo: dockerLogo },
+      { name: "CI/CD", logo: cicdLogo },
+      { name: "GitHub Actions", logo: githubActionsLogo },
+      { name: "Render", logo: renderLogo },
+      { name: "Vercel", logo: vercelLogo },
+    ],
+  },
+
   {
     title: "Tools",
     skills: [
@@ -75,9 +93,7 @@ export const SkillsInfo = [
       { name: "GitHub", logo: githubLogo },
       { name: "VS Code", logo: vscodeLogo },
       { name: "Postman", logo: postmanLogo },
-      { name: "Compass", logo: mcLogo },
-      { name: "Vercel", logo: vercelLogo },
-      { name: "Render", logo: renderLogo },
+      { name: "MongoDB Compass", logo: mcLogo },
     ],
   },
 ];
